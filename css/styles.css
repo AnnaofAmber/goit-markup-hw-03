@@ -12,7 +12,11 @@
   --color-white: #ffffff;
   --color-dairy: #fcfcfc;
 }
-/* body */
+/**
+  |============================
+  | body
+  |============================
+*/
 
 body {
   font-family: 'Roboto', sans-serif;
@@ -35,7 +39,15 @@ body {
   padding-left: 15px;
   padding-right: 15px;
 }
-/* header */
+.section {
+  padding-top: 120px;
+}
+
+/**
+  |============================
+  | header
+  |============================
+*/
 .header {
   background-color: var(--color-white);
   border-bottom: 1px solid var(--color-cornflower);
@@ -47,6 +59,15 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+.header-nav {
+  text-decoration: none;
+  color: var(--color-navy-blue);
+  font-weight: 500;
+}
+.header-nav:hover,
+.header-nav:focus {
+  color: var(--color-ocean);
 }
 .logo {
   display: inline-block;
@@ -61,15 +82,7 @@ body {
 .logo-studio {
   color: var(--color-navy-blue);
 }
-.header-nav {
-  text-decoration: none;
-  color: var(--color-navy-blue);
-  font-weight: 500;
-}
-.header-nav:hover,
-.header-nav:focus {
-  color: var(--color-ocean);
-}
+
 .list-nav {
   width: 261px;
   padding-left: 0;
@@ -80,6 +93,11 @@ body {
   display: flex;
   justify-content: space-between;
 }
+/**
+  |============================
+  | address
+  |============================
+*/
 .address {
   text-decoration: none;
   color: var(--color-slate);
@@ -100,8 +118,17 @@ body {
 .tel-header {
   margin-left: 40px;
 }
-/* main */
-/* hero */
+/**
+  |============================
+  | main
+  |============================
+*/
+
+/**
+  |============================
+  | hero
+  |============================
+*/
 .hero {
   background: var(--color-navy-blue);
   text-align: center;
@@ -133,13 +160,45 @@ body {
   background: var(--color-ocean);
 }
 
-/* section 1 */
+/**
+  |============================
+  | section 1
+  |============================
+*/
+.hidden-title {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+.list-adv {
+  display: flex;
+  padding-left: 0;
+  justify-content: space-between;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.adv {
+  width: 264px;
+}
+
 .title-adv {
   color: var(--color-navy-blue);
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.text-adv {
+  margin-top: 8px;
+  margin-bottom: auto;
 }
 
 /* section 2 */
@@ -213,7 +272,4 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-slate);
-}
-.section {
-  margin-bottom: 120px;
 }
