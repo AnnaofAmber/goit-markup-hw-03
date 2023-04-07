@@ -49,6 +49,16 @@ body {
   height: auto;
 }
 
+.hidden-title {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
 /**
   |============================
   | header
@@ -171,15 +181,7 @@ body {
   | section 1
   |============================
 */
-.hidden-title {
-  clip: rect(0 0 0 0);
-  clip-path: inset(50%);
-  height: 1px;
-  overflow: hidden;
-  position: absolute;
-  white-space: nowrap;
-  width: 1px;
-}
+
 .list-adv {
   display: flex;
   padding-left: 0;
@@ -294,7 +296,27 @@ body {
   margin-bottom: auto;
 }
 
-/* portfolio */
+/**
+  |============================
+  | portfolio 
+  |============================
+*/
+
+/**
+  |============================
+  | buttons
+  |============================
+*/
+.list-btn {
+  display: flex;
+  margin-top: auto;
+  margin-bottom: 72px;
+  padding-left: 0;
+  padding-top: 96px;
+  justify-content: center;
+  gap: 24px;
+}
+
 .btn-portfolio {
   background: var(--color-cloud);
   cursor: pointer;
@@ -305,6 +327,9 @@ body {
   line-height: 1.5;
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
+  padding: 12px 24px;
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
 }
 .btn-portfolio:hover,
 .btn-portfolio:focus {
