@@ -272,15 +272,26 @@ body {
   margin-bottom: 32px;
 }
 
-/* footer */
+/**
+  |============================
+  | footer
+  |============================
+*/
 .footer {
   background: var(--color-navy-blue);
+}
+.footer-content {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  width: 264px;
 }
 .logo-footer {
   color: var(--color-cloud);
 }
 .text-footer {
   color: var(--color-cloud);
+  margin-top: 16px;
+  margin-bottom: auto;
 }
 
 /* portfolio */
