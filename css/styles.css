@@ -201,7 +201,12 @@ body {
   margin-bottom: auto;
 }
 
-/* section 2 */
+/**
+  |============================
+  | section 2
+  |============================
+*/
+
 .section-title {
   font-weight: 700;
   font-size: 36px;
@@ -210,7 +215,23 @@ body {
   text-transform: capitalize;
   text-align: center;
   letter-spacing: 0.02em;
+  margin-top: auto;
+  margin-bottom: auto;
 }
+.list-ourwork {
+  display: flex;
+  margin-top: 72px;
+  margin-bottom: auto;
+  padding-left: 0;
+  justify-content: space-between;
+}
+
+.img-ourwork {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 /* section 3 */
 .section-team {
   background: var(--color-cloud);
