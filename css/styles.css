@@ -43,6 +43,12 @@ body {
   padding-top: 120px;
 }
 
+.img-default {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 /**
   |============================
   | header
@@ -223,21 +229,31 @@ body {
   margin-top: 72px;
   margin-bottom: auto;
   padding-left: 0;
+  padding-bottom: 120px;
   justify-content: space-between;
 }
 
-.img-ourwork {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-
-/* section 3 */
+/**
+  |============================
+  | section 3
+  |============================
+*/
 .section-team {
   background: var(--color-cloud);
 }
+
+.team-list {
+  display: flex;
+  margin-top: 72px;
+  margin-bottom: auto;
+  padding-left: 0;
+  justify-content: space-between;
+  padding-bottom: 120px;
+  border: ;
+}
 .team-member {
   background: var(--color-white);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .member-name {
@@ -247,9 +263,13 @@ body {
   line-height: 1.2;
   text-align: center;
   letter-spacing: 0.02em;
+  margin-top: 32px;
+  margin-bottom: auto;
 }
 .member-job {
   text-align: center;
+  margin-top: 8px;
+  margin-bottom: 32px;
 }
 
 /* footer */
