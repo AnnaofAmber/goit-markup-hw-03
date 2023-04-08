@@ -327,7 +327,9 @@ padding-top: 0;
   | portfolio 
   |============================
 */
-
+.section-prtf {
+  padding: 96px 120px;
+}
 /**
   |============================
   | buttons
@@ -361,6 +363,7 @@ padding-top: 0;
 .btn-portfolio:focus {
   background: var(--color-ocean);
   color: var(--color-white);
+  border: 1px solid transparent;
 }
 
 /**
@@ -382,9 +385,7 @@ padding-top: 0;
 .item-portfolio {
   border: 1px solid #e7e9fc;
   border-top: none;
-  padding-left: 16px;
-  padding-top: 32px;
-  padding-bottom: 32px;
+  padding: 32px 16px
 }
 
 .title-portfolio {
@@ -394,13 +395,13 @@ padding-top: 0;
   line-height: 1.2;
   letter-spacing: 0.02em;
   margin-top: auto;
-  margin-bottom: auto;
+  margin-bottom: 8px;
 }
 .type-portfolio {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-slate);
-  margin-top: 8px;
+  margin-top: auto;
   margin-bottom: auto;
 }
