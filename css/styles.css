@@ -341,8 +341,8 @@ body {
   display: flex;
   margin-top: auto;
   margin-bottom: 72px;
-  padding-left: 0;
-  padding-top: 96px;
+  padding-left: auto;
+  padding-top: auto;
   justify-content: center;
   gap: 24px;
 }
