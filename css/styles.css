@@ -82,6 +82,7 @@ body {
   text-decoration: none;
   color: var(--color-navy-blue);
   font-weight: 500;
+  padding: 24px 0;
 }
 .header-nav:hover,
 .header-nav:focus {
@@ -112,9 +113,7 @@ body {
   gap: 40px;
   flex-basis: calc((100% - 2 * 40px) / 3);
 }
-.item-nav {
-  padding: 24px 0;
-}
+
 /**
   |============================
   | address
