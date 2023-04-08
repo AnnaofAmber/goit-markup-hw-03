@@ -38,6 +38,7 @@ body {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
+  align-items: center;
 }
 .section {
   padding-top: 120px;
@@ -87,7 +88,6 @@ body {
   color: var(--color-ocean);
 }
 .logo {
-  display: inline-block;
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -95,14 +95,15 @@ body {
   text-transform: uppercase;
   color: var(--color-iris);
   letter-spacing: 0.03em;
+  width: 115px;
+  margin-right: 76px;
 }
 .logo-studio {
   color: var(--color-navy-blue);
 }
 
 .list-nav {
-  padding-left: 0;
-  margin-left: 76px;
+  padding: 24px 0;
   margin-right: 332px;
   margin-top: 0;
   margin-bottom: 0;
@@ -132,9 +133,8 @@ body {
   padding-bottom: 24px;
   padding-left: 0;
   display: flex;
-}
-.tel-header {
-  margin-left: 40px;
+  gap: 40px;
+  flex-basis: calc((100% - 40px) / 2);
 }
 /**
   |============================
@@ -152,6 +152,9 @@ body {
   text-align: center;
 }
 
+.hero-content {
+  padding: 188px 0;
+}
 .title-hero {
   font-weight: 700;
   font-size: 56px;
@@ -159,8 +162,11 @@ body {
   line-height: 1.07;
   letter-spacing: 0.02em;
   margin: 0 315px 48px;
+  max-width: 496px;
 }
+
 .btn-hero {
+  display: block;
   background-color: var(--color-iris);
   cursor: pointer;
   font-weight: 500;
@@ -172,6 +178,9 @@ body {
   padding: 16px 32px;
   border: 0;
   border-radius: 4px;
+  min-width: 169px;
+  margin-left: 480px;
+  margin-right: 480px;
 }
 .btn-hero:hover,
 .btn-hero:focus {
@@ -283,17 +292,20 @@ body {
   background: var(--color-navy-blue);
 }
 .footer-content {
-  padding-top: 100px;
-  padding-bottom: 100px;
-  width: 264px;
+  padding: 100px 0;
+}
+.logo-web {
+  display: inline-block;
+  margin-bottom: 16px;
 }
 .logo-footer {
   color: var(--color-cloud);
 }
 .text-footer {
   color: var(--color-cloud);
-  margin-top: 16px;
+  margin-top: auto
   margin-bottom: auto;
+  max-width: 264px;
 }
 
 /**
