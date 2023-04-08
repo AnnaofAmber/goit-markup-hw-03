@@ -199,6 +199,7 @@ body {
   justify-content: space-between;
   margin-top: auto;
   margin-bottom: auto;
+  gap: 24px;
 }
 
 .adv {
@@ -212,11 +213,11 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   margin-top: auto;
-  margin-bottom: auto;
+  margin-bottom: 8px;
 }
 
 .text-adv {
-  margin-top: 8px;
+  margin-top: auto;
   margin-bottom: auto;
 }
 
@@ -225,6 +226,9 @@ body {
   | section 2
   |============================
 */
+.section-ourwork{
+padding-top: 0;
+}
 
 .section-title {
   font-weight: 700;
@@ -235,16 +239,19 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   margin-top: auto;
-  margin-bottom: auto;
+  margin-bottom: 72px;
 }
 .list-ourwork {
   display: flex;
-  margin-top: 72px;
+  margin-top: auto;
   margin-bottom: auto;
   padding-left: 0;
   justify-content: space-between;
+  gap: 24px;
 }
-
+.item-ourwork {
+  flex-basis: calc((100% - 3 * 16px) / 3))
+}
 /**
   |============================
   | section 3
@@ -252,21 +259,28 @@ body {
 */
 .section-team {
   background: var(--color-cloud);
+  
 }
-
+.team-title {
+  margin-bottom: 72px;
+}
 .team-list {
   display: flex;
-  margin-top: 72px;
+  margin-top: auto;
   margin-bottom: auto;
   padding-left: 0;
   justify-content: space-between;
+  gap: 24px;
 }
 
 .team-member {
   background: var(--color-white);
-  border-radius: 0px 0px 4px 4px;
 }
 
+.member-info {
+  padding: 32px 16px;
+  border-radius: 0px 0px 4px 4px; 
+}
 .member-name {
   font-weight: 500;
   font-size: 20px;
@@ -274,13 +288,13 @@ body {
   line-height: 1.2;
   text-align: center;
   letter-spacing: 0.02em;
-  margin-top: 32px;
+  margin-top: auto;
   margin-bottom: auto;
 }
 .member-job {
   text-align: center;
-  margin-top: 8px;
-  margin-bottom: 32px;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 /**
